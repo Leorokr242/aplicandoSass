@@ -1,105 +1,97 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
+
 @font-face {
-    font-family: titule;
-    src: url("../assets/Fonts/winterbeauty-Script.otf");
+  font-family: titule;
+  src: url("../assets/Fonts/winterbeauty-Script.otf");
 }
-
 body {
-    background-color: whitesmoke;
-    height: auto;
-   
-
+  background-color: whitesmoke;
+  height: auto;
 }
+
 header {
-    margin: 15px 0 15px 0;
-    height: auto;
-   
+  margin: 15px 0 15px 0;
+  height: auto;
 }
 
-.tit { 
-    font-family: titule;
-    font-size: 2em;
+.tit {
+  font-family: titule;
+  font-size: 2em;
 }
 
 .radio {
-    border-radius: 15px;
+  border-radius: 15px;
 }
 
 .back {
-    background-color: rgba(173, 164, 41, 0.444);
+  background-color: rgba(173, 164, 41, 0.444);
 }
 
 .bot {
-    perspective: 1500;
-    transition: 1s ease;
+  -webkit-perspective: 2500;
+          perspective: 2500;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
 }
 
 .bot:hover {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 /* MAIN */
 main {
-    height: auto;
-  
-    
+  height: auto;
 }
 
 #articMonk {
-    height: auto;
-    margin-top: 15px;
-    padding: 15px 0 0 0;
+  height: auto;
+  margin-top: 15px;
+  padding: 15px 0 0 0;
 }
 
 #parraph {
-    text-align: justify;
-    margin: 15px;
-
+  text-align: justify;
+  margin: 15px;
 }
-#suti2venta {
-    
-    text-align: center;
-    margin-top: 20px;
-   
-    height: auto;
-    background-color: blanchedalmond;
-    border-radius: 15px;
-    
 
+#suti2venta {
+  text-align: center;
+  margin-top: 20px;
+  height: auto;
+  background-color: blanchedalmond;
+  border-radius: 15px;
 }
 
 /* FOOTER */
-
-footer { 
-    height: auto;
+footer {
+  height: auto;
 }
+
 /* PAGINA HISTORIA */
-
-
-
-#mainHistoria p{
-    text-align: justify;
-    margin: 0 20px 0 20px;
-    
-
+#mainHistoria p {
+  text-align: justify;
+  margin: 0 20px 0 20px;
 }
 
 #imgHistoria {
-        width: 100vw;
-        height: 80px;
+  width: 100vw;
+  height: 80px;
+}
 
+#tituloHistoria {
+  margin: 10px;
+  padding: 10px;
+  font-family: titule;
+  font-size: 4em;
+  text-align: center;
 }
-#tituloHistoria{
-    margin: 10px;
-    padding: 10px;
-    font-family: titule;
-    font-size: 4em;
-    text-align: center;
+
+.grad {
+  background-image: -webkit-gradient(linear, left top, right top, from(red), to(yellow));
+  background-image: linear-gradient(to right, red, yellow);
 }
- .grad {
-    background-image: linear-gradient(to right, red , yellow);
- }
