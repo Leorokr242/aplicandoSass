@@ -42,12 +42,15 @@ main {
         height: auto;
         margin-top: 15px;
         padding: 15px 0 0 0;
+
         div {
             article {
                 h2 {
 
                 }
                 p {
+                    text-align: justify;
+                    margin: 15px;
                     
                 }
             }
@@ -60,6 +63,10 @@ main {
     }
     section {
         div {
+            text-align: center;
+            margin-top: 20px;
+            height: auto;
+           
             h2 {
 
             }

@@ -1,0 +1,23 @@
+/* PAGINA HISTORIA */
+
+
+
+#mainHistoria p{
+    text-align: justify;
+    margin: 0 20px 0 20px;
+    
+
+}
+
+#imgHistoria {
+        width: 100vw;
+        height: 80px;
+
+}
+#tituloHistoria{
+    margin: 10px;
+    padding: 10px;
+    font-family: titule;
+    font-size: 4em;
+    text-align: center;
+}

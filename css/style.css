@@ -1,3 +1,20 @@
+main {
+  height: auto;
+}
+main section {
+  height: auto;
+  margin-top: 15px;
+  padding: 15px 0 0 0;
+}
+main section div article p {
+  text-align: justify;
+  margin: 15px;
+}
+main section div {
+  text-align: center;
+  margin-top: 20px;
+  height: auto;
+}
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +34,17 @@ body {
 header {
   margin: 15px 0 15px 0;
   height: auto;
+}
+
+/* MAIN */
+/* FOOTER */
+footer {
+  height: auto;
+}
+
+.grad {
+  background-image: -webkit-gradient(linear, left top, right top, from(red), to(yellow));
+  background-image: linear-gradient(to right, red, yellow);
 }
 
 .tit {
@@ -43,55 +71,6 @@ header {
   font-size: 1.5em;
 }
 
-/* MAIN */
-main {
-  height: auto;
-}
-
-#articMonk {
-  height: auto;
-  margin-top: 15px;
-  padding: 15px 0 0 0;
-}
-
-#parraph {
-  text-align: justify;
-  margin: 15px;
-}
-
 #suti2venta {
-  text-align: center;
-  margin-top: 20px;
-  height: auto;
-  background-color: blanchedalmond;
-  border-radius: 15px;
-}
-
-/* FOOTER */
-footer {
-  height: auto;
-}
-
-/* PAGINA HISTORIA */
-#mainHistoria p {
-  text-align: justify;
-  margin: 0 20px 0 20px;
-}
-
-#imgHistoria {
-  width: 100vw;
-  height: 80px;
-}
-
-#tituloHistoria {
-  margin: 10px;
-  padding: 10px;
-  font-family: titule;
-  font-size: 4em;
-  text-align: center;
-}
-
-.grad {
-  background-image: -webkit-gradient(linear, left top, right top, from(red), to(yellow));
-  background-image: linear-gradient(to right, red, yellow);
+    background-color: bisque;
 }
