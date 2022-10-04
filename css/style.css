@@ -15,6 +15,36 @@ main section div {
   margin-top: 20px;
   height: auto;
 }
+footer {
+  height: auto;
+}
+footer div {
+  height: 80px;
+}
+footer div div img {
+  height: 75px;
+  width: 75px;
+  padding: 5px;
+}
+/* PAGINA HISTORIA */
+#mainHistoria p {
+  text-align: justify;
+  margin: 0 20px 0 20px;
+}
+
+#imgHistoria {
+  width: 100vw;
+  height: 80px;
+}
+
+#tituloHistoria {
+  margin: 10px;
+  padding: 10px;
+  font-family: titule;
+  font-size: 4em;
+  text-align: center;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -69,8 +99,4 @@ footer {
 
 .bot:hover {
   font-size: 1.5em;
-}
-
-#suti2venta {
-    background-color: bisque;
 }
