@@ -1,3 +1,4 @@
+@import "./header";
 @import "./main";
 @import "./footer";
 @import "./historia--main";
@@ -18,23 +19,6 @@ body {
     height: auto;
    
 
-}
-header {
-    margin: 15px 0 15px 0;
-    height: auto;
-   
-}
-
-
-
-/* MAIN */
-
-
-
-/* FOOTER */
-
-footer { 
-    height: auto;
 }
 
 .grad {
@@ -60,5 +44,9 @@ footer {
 
 .bot:hover {
     font-size: 1.5em;
+}
+
+#suti2venta {
+    background-color: bisque;
 }
 

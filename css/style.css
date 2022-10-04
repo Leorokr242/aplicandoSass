@@ -1,3 +1,8 @@
+header {
+  margin: 15px 0 15px 0;
+  height: auto;
+}
+
 main {
   height: auto;
 }
@@ -61,17 +66,6 @@ body {
   height: auto;
 }
 
-header {
-  margin: 15px 0 15px 0;
-  height: auto;
-}
-
-/* MAIN */
-/* FOOTER */
-footer {
-  height: auto;
-}
-
 .grad {
   background-image: -webkit-gradient(linear, left top, right top, from(red), to(yellow));
   background-image: linear-gradient(to right, red, yellow);
@@ -99,4 +93,8 @@ footer {
 
 .bot:hover {
   font-size: 1.5em;
+}
+
+#suti2venta {
+  background-color: bisque;
 }
